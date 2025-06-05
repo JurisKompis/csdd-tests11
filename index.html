@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+  <meta charset="UTF-8" />
+  <title>CSDD Ceļazīmes Tests</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container" id="startPage">
+    <h1 class="main-title">CSDD Ceļazīmju Tests</h1>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Latvia_road_sign_201.svg/100px-Latvia_road_sign_201.svg.png" alt="Ceļa zīme" class="main-sign">
+    <div class="description">
+      <p><strong>Tests sastāv no:</strong></p>
+      <ul>
+        <li>✅ 10 jautājumiem ar ceļa zīmju attēliem</li>
+        <li>✅ 3 atbilžu varianti katram jautājumam</li>
+        <li>⏳ Laiks: 10 minūtes</li>
+        <li>📊 Pēc testa beigām: redzēsi rezultātus un pareizās/nepareizās atbildes</li>
+      </ul>
+      <p><strong>Veiksmi!</strong> Klikšķini zemāk, lai sāktu.</p>
+    </div>
+    <button onclick="startTest()">🚗 Sākt testu</button>
+  </div>
+
+  <div class="container" id="testPage">
+    <div id="timer">Laiks atlicis: 10:00</div>
+    <div class="progress-bar-wrapper" id="progressWrapper">
+      <div class="progress-bar" id="progressBar"></div>
+    </div>
+    <div id="question-container"></div>
+    <div class="nav-buttons">
+      <button id="nextBtn" onclick="nextQuestion()">Tālāk</button>
+    </div>
+    <div id="result"></div>
+    <div id="feedback"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

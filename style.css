@@ -1,0 +1,144 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #0f172a;
+  color: #f1f5f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background: #1e293b;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+  padding: 40px;
+  max-width: 750px;
+  width: 90%;
+  text-align: center;
+}
+
+button {
+  background-color: #22c55e;
+  color: #0f172a;
+  border: none;
+  padding: 14px 24px;
+  margin-top: 25px;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #16a34a;
+}
+
+#testPage {
+  display: none;
+}
+
+.question-img {
+  max-width: 100%;
+  height: auto;
+  margin: 15px 0;
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.answers label {
+  display: block;
+  margin: 10px 0;
+  text-align: left;
+  padding: 8px 12px;
+  border-radius: 6px;
+  background: #334155;
+  cursor: pointer;
+}
+
+.answers input {
+  margin-right: 8px;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 25px;
+}
+
+#result {
+  margin-top: 25px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #22c55e;
+}
+
+#feedback {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.description {
+  text-align: left;
+  font-size: 16px;
+  margin-top: 20px;
+  background: #334155;
+  padding: 20px;
+  border-radius: 10px;
+  line-height: 1.6;
+}
+
+.progress-bar-wrapper {
+  width: 100%;
+  background-color: #475569;
+  height: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  width: 0%;
+  background-color: #22c55e;
+  transition: width 0.5s ease-in-out;
+}
+
+.results-box {
+  background-color: #334155;
+  padding: 25px;
+  border-radius: 12px;
+  margin-top: 30px;
+  text-align: left;
+}
+
+.results-box h4 {
+  margin-top: 0;
+  color: #22c55e;
+  font-size: 20px;
+}
+
+.results-box ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.results-box li {
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+.main-title {
+  color: #22c55e;
+  font-size: 32px;
+}
+
+.main-sign {
+  margin-top: 20px;
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+}
