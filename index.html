@@ -3,12 +3,21 @@
 <head>
   <meta charset="UTF-8" />
   <title>CSDD Ceļazīmes Tests</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="container" id="startPage">
     <h1 class="main-title">CSDD Ceļazīmju Tests</h1>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Latvia_road_sign_201.svg/100px-Latvia_road_sign_201.svg.png" alt="Ceļa zīme" class="main-sign">
+    <img 
+  src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Latvia_road_sign_201.svg/100px-Latvia_road_sign_201.svg.png" 
+  srcset="
+    https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Latvia_road_sign_201.svg/100px-Latvia_road_sign_201.svg.png 1x,
+    https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Latvia_road_sign_201.svg/200px-Latvia_road_sign_201.svg.png 2x
+  "
+  sizes="(max-width: 750px) 90vw, 100px"
+  alt="Ceļa zīme"
+  class="main-sign">
     <div class="description">
       <p><strong>Tests sastāv no:</strong></p>
       <ul>
